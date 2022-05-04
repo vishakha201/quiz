@@ -1,0 +1,289 @@
+{
+  "Subcategories": [
+    {
+      "Subcategory": "Cyber Attacks",
+      "id": "cyberattacks",
+      "Styles": [
+        {
+          "Background": "linear-gradient(124deg, rgba(64,33,0,1) 0%, rgba(212,109,0,1) 100%)",
+          "topTextColor": "Bisque",
+          "progressBarColor": "#2f1909",
+          "optionTextColor": "BlanchedAlmond",
+          "optionBgColor": "#41230c"
+        }
+      ],
+      "Questions": [
+        {
+          "question": "Which of the following do not comes under Social Engineering?",
+          "choice1": "Tailgating",
+          "choice2": "Phishing",
+          "choice3": "Pretexting",
+          "choice4": "Spamming",
+          "answer": 4
+        },
+        {
+          "question": "In a phishing, attackers target the ________ technology to so social engineering.",
+          "choice1": "Emails",
+          "choice2": "WI-FI network",
+          "choice3": "Operating systems",
+          "choice4": "Surveillance camera",
+          "answer": 1
+        },
+        {
+          "question": "Using email hacking illicit hackers can send & spread ___________ virus _____________ and spam emails.",
+          "choice1": "Trojans, redirected malicious URLs",
+          "choice2": "Antivirus, patches",
+          "choice3": "Cracked software, redirected malicious URLs",
+          "choice4": "Malware, security patches",
+          "answer": 1
+        },
+        {
+          "question": "Unsolicited Bulk E-mails (UBI) are called __________",
+          "choice1": "SMS",
+          "choice2": "MMS",
+          "choice3": "Spam emails",
+          "choice4": "Malicious emails",
+          "answer": 3
+        },
+        {
+          "question": "_____________ is a code injecting method used for attacking the database of a system / website.",
+          "choice1": "HTML injection",
+          "choice2": "SQL Injection",
+          "choice3": "Malicious code injection",
+          "choice4": "XML Injection",
+          "answer": 2
+        },
+        {
+          "question": "When there is an excessive amount of data flow, which the system cannot handle, _____ attack takes place.",
+          "choice1": "Database crash attack",
+          "choice2": "DoS (Denial of Service) attack",
+          "choice3": "Data overflow Attack",
+          "choice4": "Buffer Overflow attack",
+          "answer": 4
+        },
+        {
+          "question":"These are a collective term for malicious spying programs used for secretly monitoring someone’s activity and actions over a digital medium.",
+          "choice1": "Malware",
+          "choice2": "Remote Access Trojans",
+          "choice3": "Keyloggers",
+          "choice4": "Spyware",
+          "answer": 4
+        },
+         {
+          "question": "Stuxnet is a _________",
+          "choice1": "Worm",
+          "choice2": "Virus",
+          "choice3": "Trojan",
+          "choice4": "Antivirus",
+          "answer": 1
+        },
+        {
+          "question": "_________ are the special type of programs used for recording and tracking user’s keystroke.",
+          "choice1": "Keylogger",
+          "choice2": "Trojans",
+          "choice3": "Virus",
+          "choice4": "Worms",
+          "answer": 1
+        },
+        {
+          "question": "A ______________ tries to formulate a web resource occupied or busy its users by flooding the URL of the victim with unlimited requests than the server can handle.",
+          "choice1": "Phishing attack",
+          "choice2": "DoS attack",
+          "choice3": "Website attack",
+          "choice4": "MiTM attack",
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "Subcategory": "Cryptography",
+      "id": "crypto",
+      "Styles": [
+        {
+          "Background": "linear-gradient(to top, #34e89e, #0f3443)",
+          "progressBarColor": "White",
+          "topTextColor": "white",
+          "optionTextColor": "white",
+          "optionBgColor": "#0d535a"
+        }
+      ],
+      "Questions": [
+        {
+          "question": "_________________ is the process or mechanism used for converting ordinary plain text into garbled non-human readable text & vice-versa.",
+          "choice1": "Malware Analysis",
+          "choice2": "Exploit writing",
+          "choice3": "Reverse engineering",
+          "choice4": "Cryptography",
+          "answer": 4
+        },
+        {
+          "question": "______________ is a means of storing & transmitting information in a specific format so that only those for whom it is planned can understand or process it.",
+          "choice1": "Malware Analysis",
+          "choice2": "SSMTP",
+          "choice3": "Cryptography",
+          "choice4": "Reverse engineering",
+          "answer": 3
+        },
+        {
+          "question": "When plain text is converted to unreadable format, it is termed as _____________.",
+          "choice1": "Rotten text",
+          "choice2": "Raw text",
+          "choice3": "Cipher-text",
+          "choice4": "Ciphen-text",
+          "answer": 3
+        },
+        {
+          "question": "Cryptographic algorithms are based on mathematical algorithms where these algorithms use ___________ for a secure transformation of data.",
+          "choice1": "Secret key",
+          "choice2": "External programs",
+          "choice3": "Add-ons",
+          "choice4": "Secondary key",
+          "answer": 1
+        },
+        {
+          "question": "Cryptography offers a set of required security services. Which of the following is not among that 4 required security services?",
+          "choice1": "Encryption",
+          "choice2": "Message Authentication codes",
+          "choice3": "Hash functions",
+          "choice4": "Steganography",
+          "answer": 4
+        },
+        {
+          "question": " _____________ is the concept that tells us about the replacement of every alphabet by another alphabet and the entire series gets ‘shifted’ by some fixed quantity.",
+          "choice1": " Rolling Cipher",
+          "choice2": "Shift Cipher",
+          "choice3": "Playfair Cipher",
+          "choice4": "Block Cipher",
+          "answer": 2
+        },
+        {
+          "question": "Which of the following is not a steganography tool?",
+          "choice1": "Crypture",
+          "choice2": "SteganographX Plus",
+          "choice3": "rSteg",
+          "choice4": "Burp Suite",
+          "answer": 4
+        },
+        {
+          "question": "______________ employs a text string as a key that is implemented to do a series of shifts on the plain-text.",
+          "choice1": "Vigenere Cipher",
+          "choice2": "Shift Cipher",
+          "choice3": "Playfair Cipher",
+          "choice4": "Block Cipher",
+          "answer": 1
+        },
+        {
+          "question": "The ________________ has piece of the keyword that has the same length as that of the plaintext.",
+          "choice1": "Block Cipher",
+          "choice2": "One-time pad",
+          "choice3": "Hash functions",
+          "choice4": "Vigenere Cipher",
+          "answer": 2
+        },
+        {
+          "question": "The procedure to add bits to the last block is termed as _________________.",
+          "choice1": "Decryption",
+          "choice2": "Hashing",
+          "choice3": "Tuning",
+          "choice4": "Padding",
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "Subcategory": "Firewalls",
+      "id": "firewall",
+      "Styles": [
+        {
+          "Background": "linear-gradient(124deg, rgba(2,17,48,1) 0%, rgba(20,47,105,1) 50%, rgba(23,62,145,1) 100%)",
+          "topTextColor": "Cornsilk",
+          "progressBarColor": "Cornsilk",
+          "optionTextColor": "Black",
+          "optionBgColor": "HoneyDew"
+        }
+      ],
+      "Questions": [
+        {
+          "question": "Packet filtering firewalls work effectively in _________ networks.",
+          "choice1": "Very simple",
+          "choice2": "Smaller",
+          "choice3": "Large",
+          "choice4": "Very large comoplex",
+          "answer": 2
+        },
+        {
+          "question": " _________ is the kind of firewall is connected between the device and the network connecting to internet",
+          "choice1": "Hardware Firewall",
+          "choice2": "Software Firewall",
+          "choice3": "Stateful Inspection Firewall",
+          "choice4": "Microsoft Firewall",
+          "answer": 1
+        },
+        {
+          "question": "Firewall examines each ____________ that are entering or leaving the internal network.",
+          "choice1": "Emails users",
+          "choice2": "Updates",
+          "choice3": "Connections",
+          "choice4": "Data packets",
+          "answer": 4
+        },
+        {
+          "question": "There are ______ types of firewall.",
+          "choice1": "5",
+          "choice2": "4",
+          "choice3": "3",
+          "choice4": "2",
+          "answer": 2
+        },
+        {
+          "question": "Packet filtering firewalls are deployed on _______",
+          "choice1": "Routers",
+          "choice2": "Switches",
+          "choice3": "Hubs",
+          "choice4": "Repeaters",
+          "answer": 1
+        },
+        {
+          "question": "Packet filtering firewalls are implemented in which layer of the OSI Model ?",
+          "choice1": "Application Layer",
+          "choice2": "Session Layer",
+          "choice3": "Network Layer",
+          "choice4": "Presentation Later",
+          "answer": 3
+        },
+        {
+          "question": "When a packet does not fulfil the Access Control List criteria, the packet is ______",
+          "choice1": "Resend",
+          "choice2": "Dropped",
+          "choice3": "Destroyed",
+          "choice4": "Acknowledged as received",
+          "answer": 2
+        },
+        {
+          "question": "Network administrators can create their own Access Control List rules based on _______ ________ and _______",
+          "choice1": "Address, Protocols and Packet attributes",
+          "choice2": "Address, Protocols and security policies",
+          "choice3": "Address, policies and Packet attributes",
+          "choice4": "Network topology, Protocols and data packets",
+          "answer": 1
+        },
+        {
+          "question": "Packet filtering firewalls are vulnerable to _________",
+          "choice1": "Hardware Vulnerabilities",
+          "choice2": "Phishing",
+          "choice3": "Man in the Middle",
+          "choice4": "Spoofing",
+          "answer": 4
+        },
+        {
+          "question": "Application level gateway firewalls are also used for configuring cache-servers.",
+          "choice1": "True",
+          "choice2": "False",
+          "choice3": " ",
+          "choice4": " ",
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

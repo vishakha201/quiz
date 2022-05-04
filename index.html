@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Assesment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container" id="blur">
+        <h1 class="fade">
+            <div class="sign">
+                <span class="fast-flicker">QUIZ</span><span class="flicker">VILLA</span>
+            </div>
+        </h1>
+        <div class="cback">
+            <div class="row" id="categories">
+                <div class="column1">
+                    <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2016/07/firewall.jpg" width="300" height="200" />
+                    <h2 class="firewall">Firewall</h2>
+                    <p></p>
+                </div>
+                <div class="column2">
+                    <img src="https://atalayar.com/sites/default/files/styles/foto_/public/noticias/cryptography-scaled-e1593335036543.jpg" width="300" height="200" />
+                    <h2 class="crypto">Cryptography</h2>
+                    <p></p>
+                </div>
+                <div class="column3">
+                    <img src="https://images.moneycontrol.com/static-mcnews/2020/06/CYBER-ATTACK-770x433.jpg" width="300" height="200" />
+                    <h2 class="cyberattacks">Cyber Attacks</h2>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            //fade heading
+            $(function() {
+                var documentEl = $(document),
+                    fadeElem = $(".fade");
+                documentEl.on("scroll", function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop)
+                            $this.css("opacity", 1 - (currScrollPos - elemOffsetTop) / 400);
+                    });
+                });
+            });
+
+            var x = document.querySelector(".column1").childNodes[3].className;
+            var y = document.querySelector(".column2").childNodes[3].className;
+            var z = document.querySelector(".column3").childNodes[3].className;
+
+            $(".column1").click(() => {
+                window.open(`game.html?cat=${x}`, "_self");
+            });
+            $(".column2").click(() => {
+                window.open(`game.html?cat=${y}`, "_self");
+            });
+            $(".column3").click(() => {
+                window.open(`game.html?cat=${z}`, "_self");
+            });
+        </script>
+        <div id="leaderboard">
+            <a href="highscores.html" class="ldb"> Leaderboard <i class="fas fa-crown"></i></a>
+        </div>
+        <footer>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            "If you spend more on coffee than on IT security, you will be hacked."
+                            <p id="cls">:-)</p>
+                        </p>
+                    </td>
+                    <td></td>
+                    <td id="us">
+                        <p>Website created by :</p>
+    
+                        <p>Vishakha</p>
+                        
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript">
+    $("#cls").dblclick(function() {
+        localStorage.clear();
+        alert("Leaderboard Cleared");
+    });
+</script>
+<script src="game.js"></script>
+
+</html>

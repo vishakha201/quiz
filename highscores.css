@@ -1,0 +1,37 @@
+body {
+    color: #fff;
+    background: linear-gradient(to bottom, #200122, #6f0000);
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+    border: 5px solid #000;
+    padding: 30px;
+    background-color: rgba(10, 7, 7, 0.507);
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.high-score:hover {
+    transform: scale(1.06);
+}
+
+.fa-home {
+    color: white;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #800000 0%, #ff3300 100%);
+    color: white;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative';
+    font-size: 70px;
+    letter-spacing: 10px;
+}
